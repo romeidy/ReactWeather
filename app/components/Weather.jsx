@@ -6,7 +6,7 @@ var openWeatherMap = require('openWeatherMap');
 var Weather = React.createClass({
   getInitialState: function () {
     return{
-      location: 'Jakarta',
+      location: 'Bogor',
       temp: '69'
     };
   },
